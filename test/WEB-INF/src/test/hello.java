@@ -1,12 +1,8 @@
-import java.io.IOException;
-import java.io.PrintWriter;
+import java.io.*;
+import javax.servlet.*;
+import javax.servlet.http.*;
 
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-
-public class hello extends HttpServlet {
+public class Hello extends HttpServlet {
 
 public void doGet(HttpServletRequest request, HttpServletResponse response)
 throws IOException, ServletException
@@ -18,7 +14,7 @@ out.println("<head>");
 out.println("<title>Hello World!</title>");
 out.println("</head>");
 out.println("<body>");
-out.println("<h1>GOOD BYE</h1>");
+out.println("<h1>kusozakonamekuzi</h1>");
 out.println("</body>");
 out.println("</html>");
 }
