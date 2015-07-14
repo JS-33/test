@@ -14,7 +14,7 @@ out.println("<head>");
 out.println("<title>Hello World!</title>");
 out.println("</head>");
 out.println("<body>");
-out.println("<h1>にっこにっこにー</h1>");
+out.println("<h1>山頂アタックです！</h1>");
 out.println("</body>");
 out.println("</html>");
 }
