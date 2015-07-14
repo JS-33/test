@@ -4,8 +4,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
 version="2.4">
 <servlet>
-<servlet-name>hello</servlet-name>
-<servlet-class>hello</servlet-class>
+<servlet-name>kyouyuu</servlet-name>
+<servlet-class>kyouyuu</servlet-class>
 </servlet>
 
 <servlet-mapping>
@@ -13,7 +13,7 @@ version="2.4">
 hello
 </servlet-name>
 <url-pattern>
-/servlet/hello
+/test
 </url-pattern>
 </servlet-mapping>
 
