@@ -11,7 +11,7 @@ response.setContentType("text/html; charset=Windows-31J");
 PrintWriter out = response.getWriter();
 out.println("<html>");
 out.println("<head>");
-out.println("<title>Hello World!</title>");
+out.println("<title>YAZAWA</title>");
 out.println("</head>");
 out.println("<body>");
 out.println("<h1>にっこにっこにー</h1>");
